@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Services - Agrobuc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <img src="logo.png">Agro<span class="night">buc</span>
+    </div>
+    <div class="slogan">
+        Manger sainement pour un avenir meilleur
+    </div>
+</div>
+
+<div class="navbar" id="myNavbar">
+  
+    <a href="#home">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="#about">À Propos</a>
+    <a href="contact.html">Contact</a>
+    
+    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+        &#9776; <!-- Icône de menu hamburger -->
+    </a>
+</div>
+
+<div class="main-header">
+    <h1>Bienvenue chez Agrobuc qui vous offre des produits Bio</h1>
+    <p>« Manger sainement pour un avenir meilleur »</p>
+    <img src="Screenshot_20240818-005055_1.png" alt="Image d'Agriculture Durable">
+</div>
+
+<div class="about" id="about">
+    <h2>À Propos de Nous</h2>
+    <p>
+        Chez Agrobuc, nous nous engageons à offrir des produits agroalimentaires de la plus haute qualité, cultivés de manière durable et respectueuse de l'environnement. 
+        Notre mission est de promouvoir une alimentation saine et équilibrée, en fournissant des aliments frais, biologiques et sans produits chimiques. 
+        Rejoignez-nous dans notre démarche pour un avenir plus vert et plus sain.
+    </p>
+    <img src="Screenshot_20240818-005052_1.png" alt="Image d'une Ferme Biologique">
+</div>
+<div class="slogans">
+ <p>Parce que chaque choix que nous faisons pour la planète se reflète dans ce que nous mettons dans nos assiettes, nous cultivons et créons des produits bio qui nourrissent à la fois votre corps et notre Terre, pour un avenir plus sain et plus durable.</p>
+ <img src="IMG-20240819-WA0016_1.jpg">
+ </div>
+ <div class="magnesium">
+     <p> Le magnésium est un minéral essentiel qui joue un rôle fondamental dans le bon fonctionnement de notre organisme. L'un de ses principaux bienfaits est son soutien à la fonction musculaire et nerveuse. En effet, il aide à réguler la contraction musculaire et la transmission nerveuse, ce qui permet de prévenir les crampes et les spasmes musculaires. Pour les athlètes et les personnes actives, un apport adéquat en magnésium est crucial pour maintenir des performances optimales.</p>
+     <img src="IMG-20240819-WA0000_1.jpg" >
+ </div>
+
+<div class="footer">
+   <footer>
+    <p>Contactez-nous : +243 815078128 | +243 993666571</p>
+    <p>Suivez-nous : 
+        <a href="https://facebook.com/AGROBUC" target="_blank">
+            <i class="fab fa-facebook-f"></i> Facebook
+        </a> 
+        | 
+        <a href="https://instagram.com/AGROBUC" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+    </p>
+</footer>
+</div>
+
+<script>
+    function toggleNavbar() {
+        var x = document.getElementById("myNavbar");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar";
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un Compte - Agrobuc</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .night{
+            color: green;
+        }
+        .header {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+        .user a{
+         color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            text-transform: uppercase;
+            }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .logo img {
+            max-height: 50px;
+            vertical-align: middle;
+            margin-right: 10px;
+            border-radius: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            background-color: #357a38;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            text-transform: uppercase;
+        }
+
+        .navbar a:hover {
+            background-color: #2e7d32;
+        }
+
+        .main-header {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .main-header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        .main-header p {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .signup {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #e8f5e9;
+        }
+
+        .signup h2 {
+            font-size: 2.5rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .signup form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .signup input[type="text"],
+        .signup input[type="email"],
+        .signup input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .signup input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        .signup input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .signup p {
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+
+        .signup a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .signup a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            background-color: #2E7D32;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <img src="logo.png">Agro<span class="night">buc</span>
+    </div>
+    <div class="user"><a href="signup.html">sig in</a>
+    </div>
+</div>
+
+<div class="navbar">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">À Propos</a>
+    <a href="contact.html">Contact</a>
+    
+</div>
+
+<div class="main-header">
+    <h1>Rejoignez Notre Communauté</h1>
+    <p>Créez un compte pour accéder à des avantages exclusifs !</p>
+</div>
+
+<div class="signup">
+    <h2>Créer un Compte</h2>
+    <form action="#" method="post">
+        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <input type="password" name="password" placeholder="Mot de passe" required>
+        <input type="password" name="confirm_password" placeholder="Confirmer le mot de passe" required>
+        <input type="submit" value="S'inscrire">
+    </form>
+    <p>Vous avez déjà un compte ? <a href="login.html">Connectez-vous ici</a>.</p>
+</div>
+
+<div class="footer">
+    &copy; 2024 Agrobuc - Tous droits réservés
+</div>
+
+</body>
+</html>
